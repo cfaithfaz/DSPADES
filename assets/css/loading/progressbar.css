@@ -1,0 +1,14 @@
+.progress-container {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.content {
+  height: 200px;
+  overflow-y: scroll;
+  margin-top: 50px;
+  margin: 50px;
+}
+

@@ -1,0 +1,62 @@
+.nav-con {
+  position: absolute;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+.curved-background {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+@media (max-width: 500vh) {
+  .svg-container {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    z-index: -1;
+    top: 0;
+  }
+}
+
+.custom-fill {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+#nav-image.dspades {
+  width: 240px;
+  height: 90px;
+  margin-top: 36px;
+  margin-left: 58px;
+}
+
+#nav-logo {
+  width: 240px;
+  height: 90px;
+}
+
+/* CAREER PAGE */
+
+#overlay {
+  padding-bottom: 0px;
+  height: 234.505px;
+  background: linear-gradient(-89deg, #63f41e 0%, #DAFF7D 100%);
+}
+
+/* TYPICAL NAVBAR */
+
+.navbar {
+  box-shadow: 0px 1px 12px rgb(108, 108, 108);
+  border-bottom-color: rgb(98, 98, 98);
+}
+

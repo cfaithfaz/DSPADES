@@ -1,0 +1,175 @@
+/* heading */
+
+.text-test {
+  padding: 10px;
+  margin: 10px;
+}
+
+.div-arrow {
+  margin: -10px;
+}
+
+/* text center */
+
+.text-center {
+  color: black;
+}
+
+.column {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn-group {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.div-arrow, .btn-arrow {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.rowtest {
+  justify-content: center;
+  align-content: center;
+}
+
+.div-head-test {
+  margin-top: 10px;
+  padding-top: 0.1px;
+  height: 10%;
+}
+
+.text-test {
+  margin-top: 10px;
+  color: #02ad83;
+  justify-content: center;
+  display: flex;
+  font-family: 'Bowlby One', serif;
+  font-size: 37px;
+  text-align: center;
+}
+
+#prevButton, #nextButton {
+  width: 70px;
+  height: 70px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-right: 25px;
+  margin-left: 25px;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+#prevButton {
+  background-image: url('../../assets/img/icons/arrow1.png');
+}
+
+#nextButton {
+  background-image: url('../../assets/img/icons/arrow2.png');
+}
+
+#group1 {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.btnlabel {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Architects Daughter', serif;
+  font-weight: bold;
+}
+
+#image1, #image2 {
+  padding-left: 0px;
+  border-style: none;
+  width: 95px;
+  height: 90px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* styles.css */
+
+#group2 {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/* Button label styles */
+
+.btnlabel {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Architects Daughter', serif;
+  font-weight: bold;
+}
+
+/* Image styles */
+
+#image-1, #image-2 {
+  padding-left: 0px;
+  border-style: none;
+  width: 95px;
+  height: 90px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Other styles as needed */
+
+@media (min-width: 576px) and (max-width: 1400px) {
+  .text-center {
+    margin-top: 80px;
+    font-weight: bold;
+    margin-left: -40px;
+  }
+}
+
+/* Default styles for all screen sizes */
+
+h1 {
+  color: var(--bs-black);
+  font-family: 'Archivo Black', sans-serif;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 6px;
+  margin-top: 72px;
+}
+
+/* Media query for screens smaller than 576px (e.g., mobile devices) */
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 18px;
+    margin-top: 48px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 80px;
+  }
+}
+

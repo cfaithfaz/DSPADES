@@ -1,0 +1,274 @@
+/* GUIDE1 PAGE */
+
+.formdiv {
+  padding-right: 0;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .col-12, .col-md-6 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .div-btn {
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn-head {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-xl {
+    margin-top: 5px;
+  }
+}
+
+/* GUIDESPAGES */
+
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .col-auto {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .col-auto {
+    padding-right: 10.5px;
+    padding-left: 7.5px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .float-start {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    width: 40%;
+    max-width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .float-start {
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-top: -5px;
+    width: 25%;
+    max-width: 30%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .float-start {
+    margin-right: -56px;
+    margin-left: -15px;
+    margin-top: -55px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .card-body {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .card-body {
+    padding: 20px;
+  }
+}
+
+/* footer */
+
+@media screen and (max-width: 576px) {
+  footer {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin-top: 20px;
+  }
+}
+
+@media screen and  (max-width: 576px) {
+  .col {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .list-inline {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer.bg-primary-gradient {
+    position: relative;
+  }
+}
+
+/* IMAGE MEDIA */
+
+/* GUIDE 1 PAGE */
+
+@media (max-width: 576px) {
+  .img-guide1 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .img-guide1 {
+    width: 70%;
+    height: 55%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img-guide1 {
+    width: 90%;
+    height: 75%;
+  }
+}
+
+@media (max-width: 576px) {
+  .img2-guide1 {
+    width: 105%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .img2-guide1 {
+    width: 90%;
+    height: 85%;
+  }
+}
+
+@media (min-width: 900px) {
+  .img2-guide1 {
+    width: 90%;
+  }
+}
+
+/* RESULT IMAGES */
+
+@media (max-width: 576px) {
+  .img-sec1-result {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .img-sec1-result, .result-h3, div1-result {
+    width: 100%;
+    height: 70%;
+    font-size: small;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-sec1-result {
+    width: 85%;
+    height: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  .img-sec1-result {
+    width: 85%;
+    height: 85%;
+  }
+}
+
+/* DSPADES LOGO */
+
+@media screen and (max-width: 360px) {
+  .nav-image {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+}
+
+/* IMAGE FLUID */
+
+@media screen and (max-width: 576px) {
+  .img-fluid {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .img-fluid {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .img-fluid {
+    width: 30%;
+    height: 100%;
+  }
+}
+
+/* GUIDELINES IMAGES */
+
+@media screen and (max-width: 576px) {
+  .img-guide {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
