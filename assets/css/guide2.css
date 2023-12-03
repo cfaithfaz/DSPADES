@@ -1,0 +1,78 @@
+.btn-head {
+  display: flex;
+  justify-content: flex-end;
+  align-content: end;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  flex: 1;
+}
+
+.foot-guide1 {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.div-guide1 {
+  margin-top: 10px;
+}
+
+.div-guide1 img {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card-title {
+  font-family: Antic, sans-serif;
+  color: rgb(9,189,178);
+  font-weight: bolder;
+}
+
+#step1, #step2, #step3 {
+  color: #51575e;
+}
+
+.text-ready {
+  margin-bottom: 0px;
+  margin-right: 38px;
+  font-size: 32px;
+  font-family: Dangrek, serif;
+  color: rgb(8,149,14);
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.guidelines {
+  height: 150px;
+  width: 479px;
+}
+
+#numbers {
+  height: 140px;
+  width: 140px;
+  margin-right: -56px;
+  margin-top: -55px;
+  margin-left: -15px;
+}
+

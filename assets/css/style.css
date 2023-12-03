@@ -1,0 +1,15 @@
+.guide-content {
+  background: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .guide-content {
+    background: transparent;
+    height: 700px;
+  }
+}
+
+navbar {
+  width: auto;
+}
+

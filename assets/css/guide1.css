@@ -1,0 +1,86 @@
+/* Define styles for the elements */
+
+.row-image-txt {
+  border-color: rgba(33, 37, 41, 0);
+  background: rgba(42, 42, 42, 0);
+}
+
+.img-guide1 {
+  width: 100%;
+  margin: 44px;
+}
+
+.content-column {
+  padding: 20px;
+  color: var(--bs-emphasis-color);
+}
+
+.button-container {
+  text-align: center;
+  margin-left: 28px;
+  margin-top: 18px;
+}
+
+.button-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  padding: 10px;
+  height: 40vh;
+}
+
+@media (max-width: 576px) {
+  .mb-1 {
+    font-size: 14px;
+  }
+}
+
+/* Add animation styles */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-left {
+  animation: slideInFromLeft 1s ease forwards;
+}
+
+.animate-slide-right {
+  animation: slideInFromRight 1s ease forwards;
+}
+
+.text-black-50 {
+  font-family: 'Open Sans', serif;
+}
+
