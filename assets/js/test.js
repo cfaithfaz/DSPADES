@@ -380,6 +380,7 @@ document.getElementById('prevButton').addEventListener('click', function() {
   if (currentContentIndex > 0) {
     currentContentIndex--;
     carousel.prev();
+<<<<<<< HEAD
   } else {
     // If at the first question, redirect to guide2.html
     window.location.href = 'guide2.html';
@@ -387,6 +388,11 @@ document.getElementById('prevButton').addEventListener('click', function() {
 });
 
 
+=======
+  }
+});
+
+>>>>>>> origin/main
 window.onload = () => {
   // Clear previously stored progress value
   localStorage.removeItem('progress');
